@@ -1,0 +1,55 @@
+public class A {
+int var1;
+private double var2; 
+public int method () {
+        private double var3;
+        out.println("Hello world!"); 
+        private String var4;
+        var1=5;
+        int var1 = 12;
+        var4 = var7 + 1;
+        public String my_str = “H3ll0”;
+        int x = 15, y = 16, z = 17;
+        double x, y, z;
+      
+
+for (int i = 0; i < 5; i = i+1) {
+  out.println("Hello world!");
+}
+
+    do {
+        out.println("Hello world!");
+        num= num+1;
+    } while (num != 5);
+
+    if (num == 10){
+    private String str;
+}
+
+//This is a comment
+
+/* This 
+is 
+a 
+multi line 
+comment
+*/
+
+    switch(a) {
+        case 1:
+            out.println("case_1");
+            break;
+        case 2:
+            out.println("case2");
+
+        default:
+            out.println("defaultt");
+    }
+
+}
+
+
+
+}
+
+
