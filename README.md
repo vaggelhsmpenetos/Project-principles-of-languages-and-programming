@@ -2,65 +2,46 @@
 
 ## Project Overview
 
-This project was developed as part of the **Programming Languages & Compiler Design** course at the **Department of Computer Engineering and Informatics, University of Patras**.
+This project was developed as part of the **Programming Languages & Compiler Design** course at the Department of Computer Engineering & Informatics, University of Patras.
 
-The main goal of the project was to gain practical experience with fundamental concepts of **programming language design and compiler construction** by designing and implementing a lexical and syntax analyzer for a custom object-oriented programming language.
+The main objective was to design and implement the front-end of a custom object-oriented programming language inspired by Java. The project focuses on the development of a **lexical analyzer and syntax analyzer**, together with additional semantic and error-handling capabilities.
 
-The project starts with the formal definition of the language grammar using **BNF (Backus–Naur Form)** and proceeds to the implementation of a **lexical analyzer using Flex** and a **syntax analyzer using Bison**.
+## Main Features
 
-The final analyzer accepts source-code files written in the custom programming language and checks whether they follow the defined lexical, syntactic, and additional semantic rules.
+- Design of the language syntax using **BNF grammar**.
+- Implementation of a **lexical analyzer using Flex** for token recognition.
+- Implementation of a **syntax analyzer using Bison** for grammar validation.
+- Support for an object-oriented language with **classes, methods, variables, objects and basic data types**.
+- Support for common programming constructs such as **assignments, arithmetic expressions, loops and conditional statements**.
+- Support for **variable initialization and multiple variable declarations**.
+- Basic **semantic analysis**, including variable and method checking.
+- **Scope management** for variables and methods.
+- Optional evaluation of arithmetic expressions while respecting operator precedence.
+- Detection and reporting of **lexical and syntax errors**.
+- Implementation of **error recovery**, allowing the parser to continue and identify multiple errors in the same source file.
 
----
+## Technologies & Tools
 
-## Project Objectives
+- **C**
+- **Flex**
+- **Bison**
+- **BNF**
+- **Compiler Design**
+- **Lexical Analysis**
+- **Syntax Analysis**
+- **Semantic Analysis**
 
-The main objectives of the project were:
+## Project Structure
 
-- Define the grammar of a custom programming language using **BNF**.
-- Implement a **lexical analyzer** using Flex.
-- Implement a **syntax analyzer / parser** using Bison.
-- Recognize and validate the different constructs of the programming language.
-- Detect and report syntax errors in source-code files.
-- Check whether variables and methods are correctly declared and used.
-- Handle variable and method **scope**.
-- Evaluate arithmetic expressions and variable assignments.
-- Implement error handling and recovery mechanisms.
+The project includes the Flex and Bison source files, generated C and header files, the executable parser, test input programs, and the accompanying technical report.
 
----
+## Academic Context
 
-## The Custom Programming Language
+**Course:** Programming Languages & Compiler Design  
+**Department:** Computer Engineering & Informatics  
+**University:** University of Patras  
+**Semester:** Spring 2024
 
-The language analyzed in this project is a fictional **object-oriented programming language inspired by Java**.
+## Summary
 
-Programs are organized into one or more classes and support several fundamental object-oriented and programming language constructs, including:
-
-- Classes and nested classes
-- Variables and methods
-- Primitive and non-primitive data types
-- Public and private access modifiers
-- Object creation
-- Method calls
-- Variable assignments
-- Arithmetic expressions
-- Conditional statements
-- Loop statements
-- Return statements
-- Break statements
-- Output statements
-- Single-line and multi-line comments
-
-The language is **case-sensitive** and follows a predefined lexical and syntactic specification.
-
----
-
-## Classes and Methods
-
-Each program consists of one or more classes. A class can also contain another class.
-
-A basic class follows the structure:
-
-```text
-public class ClassName {
-    // variable declarations
-    // method declarations
-}
+Through this project, I gained practical experience in **compiler front-end development**, language grammar design, lexical and syntax analysis, semantic checking, scope management, and error handling using **Flex and Bison**.
